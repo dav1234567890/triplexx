@@ -1,0 +1,148 @@
+:root{
+    --background-dark: #2d3548;
+    --text-light: rgba(255,255,255,0.6);
+    --text-lighter: rgba(255,255,255,0.9);
+    --spacing-s: 8px;
+    --spacing-m: 16px;
+    --spacing-l: 24px;
+    --spacing-xl: 32px;
+    --spacing-xxl: 64px;
+    --width-container: 1200px;
+  }
+  
+  *{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html{
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+  }
+  
+  nav{
+    border: white 2px solid;
+    border-radius: 13px;
+    padding: 8px;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin-top: 15px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+  }
+
+  html, body {
+      height: 100%;
+  }
+  
+  li {
+    font-size: 24px;
+    color: white;
+    margin: 20px;
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-top: 29px;
+  }
+  
+  .date {
+    text-decoration: underline;
+  }
+  
+  a:hover {
+    color: black;
+    transition: 0.3s ease-in-out;
+  }
+  
+  body {
+    background-image: linear-gradient(120deg, #0a138f , #dfb631 );
+  }
+  
+  header h1 {
+    font-size: 45px;
+    margin-top: 16px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+
+.skins {
+    color: black;
+  }
+
+  .skins-chto {
+      color: white;
+      font-size: 35px;
+      margin: 25px;
+  }
+
+  .skins-eto {
+      font-size: 24px;
+      color: white;
+      margin: 0px 60px 60px 40px;
+      border: white solid 2px;
+      border-radius: 17px;
+      padding: 17px;
+  }
+
+  .skins-podborka {
+    color: white;
+      font-size: 35px;
+      margin: 25px;
+  }
+
+  .skins-card {
+    display: flex;
+    justify-content: center;
+  }
+
+  .skin {
+      position: relative;
+      border: white 1px solid;
+      border-radius: 7px;
+      float: right;
+      width: 420px;
+      height: 500px;
+  }
+
+  .skin img {
+      position: relative;
+      margin-left: 40px;
+      size: 30px;
+      margin-bottom: 0px;
+  }
+
+  .skin p {
+      color: white;
+      font-size: 30px;
+      text-align: center;
+      margin: 10px;
+      margin-top: 25px;
+  }
+
+  .skin-buy {
+      background-image: linear-gradient(250deg, rgb(1, 196, 43), rgb(3, 97, 19));
+      border-radius: 17px;
+      padding: 15px;
+      display: inline-block;
+      position: relative;
+      justify-content: center;
+      margin-bottom: 60px;
+      margin-left: 20px;
+      width: 380px;
+      margin-right: 20px;
+  }
+
+  .skin-buy:hover {
+    color: white;
+    background: linear-gradient(40deg, rgb(1,196,43),rgb(3,97,19));
+    transition: 9s ease-in-out linear;
+  }
